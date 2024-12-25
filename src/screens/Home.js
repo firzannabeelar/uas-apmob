@@ -7,7 +7,7 @@ const Home = ({ navigation }) => {
       {/* Header Section */}
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Selamat Datang</Text>
-        <Text style={styles.headerSubtitle}>Manager.</Text>
+        <Text style={styles.headerSubtitle}>Manager</Text>
       </View>
       
       {/* Main Content */}
@@ -43,7 +43,7 @@ const Home = ({ navigation }) => {
       
        {/* Container Tombol */}
        <View style={styles.buttonContainer}>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Detail2')}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Credit')}>
           <Text style={styles.buttonText}>Credit</Text>
         </TouchableOpacity>
         

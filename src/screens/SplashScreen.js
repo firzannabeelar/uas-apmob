@@ -14,7 +14,7 @@ const SplashScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.textHeader}>SIKERJA</Text>
-      <Text style={styles.text}>Aplikasi Informasi Managerial Pegawai</Text>
+      <Text style={styles.text}>Aplikasi Managerial Jobdesk Pegawai</Text>
     </View>
   );
 };
